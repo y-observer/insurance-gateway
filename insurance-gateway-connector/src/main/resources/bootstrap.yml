@@ -1,0 +1,35 @@
+server:
+  port: 8019
+spring:
+  profiles:
+    active: dev
+  application:
+    name: insurance-gateway-connector
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      config:
+        group: ${spring.profiles.active}
+        prefix: ${spring.application.name}
+        file-extension: yml
+        shared-configs:
+          - dataId: insurance-gateway-baseconfig-${spring.profiles.active}.yml
+            group: ${spring.profiles.active}
+            refresh: true
+          - dataId: insurance-gateway-common-${spring.profiles.active}.yml
+            group: ${spring.profiles.active}
+            refresh: true
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 169.254.115.209:8898
+        namespace: 38ec12f2-3ede-470c-95f0-822a33ac312e
+      config:
+        server-addr: 169.254.115.209:8898
+        namespace: 38ec12f2-3ede-470c-95f0-822a33ac312e

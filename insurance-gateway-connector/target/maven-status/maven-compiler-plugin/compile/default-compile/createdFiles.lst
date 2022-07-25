@@ -1,0 +1,12 @@
+cn\net\insurance\gateway\connector\config\AdminIgnoreWhiteProperties.class
+cn\net\insurance\gateway\connector\config\CorsConfig$1.class
+cn\net\insurance\gateway\connector\utils\GatewayResponseUtils.class
+cn\net\insurance\gateway\connector\config\CorsConfig.class
+cn\net\insurance\gateway\connector\filter\WebGlobalFilter$2.class
+cn\net\insurance\gateway\connector\utils\InsuranceStringUtils.class
+cn\net\insurance\gateway\connector\filter\WebGlobalFilter$1.class
+cn\net\insurance\gateway\connector\filter\OmsGatewayFilterFactory.class
+cn\net\insurance\gateway\connector\config\GatewayContext.class
+cn\net\insurance\gateway\connector\filter\WebGlobalFilter$3.class
+cn\net\insurance\gateway\connector\filter\WebGlobalFilter.class
+cn\net\insurance\gateway\connector\InsuranceGatewayConnectorApplication.class

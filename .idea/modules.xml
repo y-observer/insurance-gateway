@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/insurance-gateway.iml" filepath="$PROJECT_DIR$/insurance-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insurance-gateway-common/insurance-gateway-common.iml" filepath="$PROJECT_DIR$/insurance-gateway-common/insurance-gateway-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insurance-gateway-connector/insurance-gateway-connector.iml" filepath="$PROJECT_DIR$/insurance-gateway-connector/insurance-gateway-connector.iml" />
+    </modules>
+  </component>
+</project>
